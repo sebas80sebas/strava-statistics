@@ -1,0 +1,73 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Storage & Database
+storage/
+build/
+/storage/database/
+/storage/files/
+/build/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# OS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Backup Files
+*.backup
+*.backup.*
+
+# Private Configuration (Examples)
+config.yaml.private
+config.local.yaml
+
+# Cache
+cache/
+.cache/
+*.cache
+
+# Testing
+coverage/
+.coverage
+htmlcov/
