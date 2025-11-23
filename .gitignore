@@ -58,9 +58,10 @@ temp/
 *.backup
 *.backup.*
 
-# Private Configuration (Examples)
+# Private Configuration
 config.yaml.private
 config.local.yaml
+config.yaml
 
 # Cache
 cache/
